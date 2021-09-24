@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  border: 2px solid #282c34;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+
 }
 
 .App-logo {
@@ -35,4 +40,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button{
+
+  background-color: #fff;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: paleturquoise;
 }
